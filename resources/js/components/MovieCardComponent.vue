@@ -11,7 +11,7 @@
   export default {
     props: ['movie'],
     mounted() {
-      console.log('Component mounted.')
+      console.log('Component mounted.');
     }
   }
 </script>

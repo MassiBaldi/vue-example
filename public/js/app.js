@@ -49638,6 +49638,7 @@ var app = new Vue({
         image: this.newImage
       };
       this.movies.push(newMovieObject);
+      this.newTitle = '', this.newYear = '', this.newOverview = '', this.newImage = '';
     }
   }
 });
